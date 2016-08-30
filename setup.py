@@ -22,9 +22,9 @@ setup(
     name='numbers',
     version=find_version('numbers.py'),
     py_modules=['numbers'],
-    author='Alfonso',
-    author_email='AlfonsoVA@ciencias.unam.mx',
-    url='https://github.com/AlfonsoVA/Prueba.git',
+    author='David Cramer',
+    author_email='dcramer@gmail.com',
+    url=' https://github.com/dcramer/numbers --- https://github.com/AlfonsoVA/Prueba.git',
     description='Python Numbers for Humans.',
     long_description=read('README.rst'),
     classifiers=[
