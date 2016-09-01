@@ -1,1 +1,11 @@
 Probando FTW!
+
+Modificaiones generales:
+
+29-08-2016: Se agrega el archivo presente, se modificaron los creditos, se agregaron mas pruebas al test.py
+
+30-08-2016: Se agrega una prueba en numbers.py que permite operar a base de los objetos tipo "numero" y "negativo"
+	    se restauran los creditos al autor original.
+
+31-08-2016: Se intenta hacer el metodo find_version() en setup.py mas sencillo con un else implementado, se agregan mas pruebas
+	    al test.py, se cambia la forma de implementar los numeros la hacer la prueba, en vez de un ENTER es SPACE para los 2 numeros
