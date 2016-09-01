@@ -1,4 +1,5 @@
 import codecs
+import numbers
 import re
 from os import path
 from distutils.core import setup
@@ -10,12 +11,17 @@ def read(*parts):
 
 
 def find_version(*parts):
+		
     version_file = read(*parts)
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
                               version_file, re.M)
     if version_match:
         return version_match.group(1)
-    raise RuntimeError("Unable to find version string.")
+    else:
+    	print(numbers.__version__)#En teoria, deberia buscar la version de Numbers.py
+
+
+find_version()
 
 
 setup(
@@ -36,3 +42,4 @@ setup(
         'Topic :: Scientific/Engineering :: Mathematics',
     ],
 )
+
